@@ -1,0 +1,45 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+    padding:5px;
+    
+}
+a:hover{
+    color: red;
+    background-color: cadetblue;
+}
+.header{
+    background-color: green;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding:3rem;
+    margin-top: -30px;
+    font-size:25px;
+    font-weight: bolder;
+    color: rosybrown;
+    text-transform: capitalize;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav ul li{
+    padding-right: 30px;
+}
+.content1{
+    background-color:yellow;
+    padding: 1rem;
+    height:500px;
+    padding-left: 5rem;
+}
+
+
+
